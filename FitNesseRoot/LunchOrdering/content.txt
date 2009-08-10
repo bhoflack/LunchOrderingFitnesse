@@ -1,0 +1,5 @@
+!define CM_SYSTEM {fitnesse.wiki.cmSystems.GitCmSystem}
+
+>FrontPage : where the main content lives.
+
+

@@ -1,0 +1,24 @@
+!contents -R2 -g -p -f -h
+
+!1 Admin sends orders to caterer
+
+
+!2 Main Scenario
+
+1 Admin logs in
+2 System shows administration interface
+3 Admin selects outstanding orders
+4 System displays orders for today
+5 Admin prints out orders
+
+!2 Alternatives
+
+!note Idea
+
+5a Admin asks system to send the order directly to caterer (e.g. email, fax or web service).
+-  5a1. Admin selects caterer to order from
+-  5a2. System sends to order to the caterer
+-  5a3. System confirms order to Admin
+
+
+

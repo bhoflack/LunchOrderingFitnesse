@@ -1,0 +1,36 @@
+!contents -R2 -g -p -f -h
+
+
+!1 User Deposits Money
+
+!2 Main scenario
+
+1 User goes to Admin
+2 User asks Admin to add an amount to the Lunch Ordering application
+3 Admin goes to User's Account page and verifies the current balance
+4 Admin accepts the money
+5 Admin adds the amount to the balance 
+6 Lunch Ordering Application shows the new balance
+7 Admin confirms adding the amount
+8 User thanks Admin and goes back to work
+
+!2 Alternatives
+
+1a. User only wants to use the system to order something today.
+- 1a1. User makes choice for lunch
+- 1a2. follow main scenario
+- 1a3. Users asks Admin to order the chosen lunch
+
+!note It is highly likely that in this case the system will not be used.
+
+2a. User wants to withdraw from his/her balance
+- 2a1. User asks Admin to withdraw money
+- 2a2 Admin verifies User's identity
+- 2a3 Admin goes to User's Account page and verifies the current balance
+- 2a4 Admin accepts the money
+- 2a5 Admin adds the amount to the balance 
+- 2a6 Lunch Ordering Application shows the new balance
+- 2a7 Admin confirms adding the amount
+- 2a8 User thanks Admin and goes back to work
+
+
